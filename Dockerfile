@@ -2,8 +2,6 @@ FROM debian:jessie
 
 RUN apt-get update -y -q && apt-get install tor -y -q && rm -rf /var/lib/apt/lists/*
 
-RUN echo aaa
-
 COPY test.sh /test.sh
 
 COPY docker-entrypoint.sh /entrypoint.sh
