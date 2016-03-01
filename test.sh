@@ -12,3 +12,4 @@ sed -i 's/^#RelayBandwidthRate/RelayBandwidthRate/' /etc/tor/torrc
 sed -i 's/^#RelayBandwidthBurst/RelayBandwidthBurst/' /etc/tor/torrc
 sed -i 's/^#ExitPolicy reject/ExitPolicy reject/' /etc/tor/torrc
 
+echo test
