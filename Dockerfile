@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 
 RUN apt-get update -y -q && apt-get install tor -y -q && rm -rf /var/lib/apt/lists/*
 
